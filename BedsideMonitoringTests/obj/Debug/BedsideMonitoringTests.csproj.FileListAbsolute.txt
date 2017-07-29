@@ -1,0 +1,58 @@
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabase.mdf
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabase_log.ldf
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.Designer.cs
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xsc
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xsd
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xss
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.cs
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\BedsideMonitoringTests.dll
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\BedsideMonitoringTests.pdb
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\BedsideMonitoring.exe
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\BedsideMonitoring.pdb
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.dll
+C:\Users\Christopher\Source\Repos\SoftEngAssess\BedsideMonitoring\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.pdb
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabase.mdf
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabase_log.ldf
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.cs
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.Designer.cs
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xsc
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xsd
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xss
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\BedsideMonitoringTests.dll
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\BedsideMonitoringTests.pdb
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\BedsideMonitoring.exe
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\BedsideMonitoring.pdb
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.csprojResolveAssemblyReference.cache
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.dll
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.pdb
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 1.csv
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 2.csv
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 3.csv
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 4.csv
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 5.csv
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 6.csv
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Mutable.wav
+C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 8.csv
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabase.mdf
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabase_log.ldf
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Mutable.wav
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.cs
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.Designer.cs
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 1.csv
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 2.csv
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 3.csv
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 4.csv
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 5.csv
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 6.csv
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\Resources\Bed 8.csv
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xsc
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xsd
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xss
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\BedsideMonitoringTests.dll
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\BedsideMonitoringTests.pdb
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\BedsideMonitoring.exe
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\Debug\BedsideMonitoring.pdb
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.dll
+\\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.pdb

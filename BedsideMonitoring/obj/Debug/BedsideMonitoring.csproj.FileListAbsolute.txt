@@ -1,0 +1,128 @@
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/BedsideMonitoring.exe.config
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.csprojResolveAssemblyReference.cache
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.AlarmTimes.resources
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.BedsideModule.resources
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.BedsideMonitor.resources
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.CentralStationBedsideDetails.resources
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.CentralStationOverview.resources
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.Properties.Resources.resources
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.RegisterConsultant.resources
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.ModuleSelection.resources
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.StaffShifts.resources
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.csproj.GenerateResource.Cache
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabase.mdf
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabase_log.ldf
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Mutable.wav
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.cs
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.Designer.cs
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 1.csv
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 2.csv
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 3.csv
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 4.csv
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 5.csv
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 6.csv
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 8.csv
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.xsc
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.xsd
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.xss
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/BedsideMonitoring.exe
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/BedsideMonitoring.pdb
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.exe
+C:/Users/Christopher/Desktop/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.pdb
+E:/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/BedsideMonitoring.exe.config
+E:/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.exe
+E:/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.pdb
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/BedsideMonitoring.exe.config
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.exe
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.pdb
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabase.mdf
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabase_log.ldf
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Mutable.wav
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.cs
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.Designer.cs
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 1.csv
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 2.csv
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 3.csv
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 4.csv
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 5.csv
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 6.csv
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 8.csv
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.xsc
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.xsd
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.xss
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/BedsideMonitoring.exe
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/BedsideMonitoring.pdb
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.csprojResolveAssemblyReference.cache
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.AlarmTimes.resources
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.BedsideModule.resources
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.BedsideMonitor.resources
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.CentralStationBedsideDetails.resources
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.CentralStationOverview.resources
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.Properties.Resources.resources
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.RegisterConsultant.resources
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.ModuleSelection.resources
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.StaffShifts.resources
+//Mac/Home/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.csproj.GenerateResource.Cache
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabase.mdf
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabase_log.ldf
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Mutable.wav
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.cs
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.Designer.cs
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 1.csv
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 2.csv
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 3.csv
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 4.csv
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 5.csv
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 6.csv
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/Resources/Bed 8.csv
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.xsc
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.xsd
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/RegisteringDerigesteringDatabaseDataSet.xss
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/BedsideMonitoring.exe.config
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/BedsideMonitoring.exe
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/bin/Debug/BedsideMonitoring.pdb
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.csprojResolveAssemblyReference.cache
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.AlarmTimes.resources
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.BedsideModule.resources
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.BedsideMonitor.resources
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.CentralStationBedsideDetails.resources
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.CentralStationOverview.resources
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.Properties.Resources.resources
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.RegisterConsultant.resources
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.ModuleSelection.resources
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.StaffShifts.resources
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.csproj.GenerateResource.Cache
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.csproj.CoreCompileInputs.cache
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.exe
+/Users/henrymigo/Desktop/Work/V2.0/BedsideMonitoring/BedsideMonitoring/obj/Debug/BedsideMonitoring.pdb
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabase.mdf
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabase_log.ldf
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\Resources\Mutable.wav
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabaseDataSet.cs
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabaseDataSet.Designer.cs
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\Resources\Bed 1.csv
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\Resources\Bed 2.csv
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\Resources\Bed 3.csv
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\Resources\Bed 4.csv
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\Resources\Bed 5.csv
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\Resources\Bed 6.csv
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\Resources\Bed 8.csv
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xsc
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xsd
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xss
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\BedsideMonitoring.exe.config
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\BedsideMonitoring.exe
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\bin\Debug\BedsideMonitoring.pdb
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.csprojResolveAssemblyReference.cache
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.AlarmTimes.resources
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.BedsideModule.resources
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.BedsideMonitor.resources
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.CentralStationBedsideDetails.resources
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.CentralStationOverview.resources
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.Properties.Resources.resources
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.RegisterConsultant.resources
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.ModuleSelection.resources
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.StaffShifts.resources
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.csproj.GenerateResource.Cache
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.exe
+X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.pdb
