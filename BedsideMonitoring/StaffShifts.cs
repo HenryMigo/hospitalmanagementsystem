@@ -89,7 +89,7 @@ namespace BedsideMonitoring
 
         private void btnDeregister_Click(object sender, EventArgs e)
         {
-            int rows = DatabaseController.DBInstance.deregisterRow(DateTime.Now, Constants.insertRow);
+            int rows = DatabaseController.DBInstance.DeregisterRow(DateTime.Now, Constants.insertRow);
             if (rows == Constants.errNoRowInserted)
             {
                 MessageBox.Show(Constants.errInsertInTableStr);

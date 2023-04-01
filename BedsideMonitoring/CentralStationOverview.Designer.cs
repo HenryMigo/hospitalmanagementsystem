@@ -51,7 +51,7 @@
             this.btnRegisterStaff.TabIndex = 8;
             this.btnRegisterStaff.Text = "Register Staff";
             this.btnRegisterStaff.UseVisualStyleBackColor = true;
-            this.btnRegisterStaff.Click += new System.EventHandler(this.btnRegisterStaff_Click);
+            this.btnRegisterStaff.Click += new System.EventHandler(this.BtnRegisterStaff_Click);
             // 
             // btnExit
             // 
@@ -61,7 +61,7 @@
             this.btnExit.TabIndex = 9;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // centralStationBedsideDetails8
             // 
@@ -72,7 +72,7 @@
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails8.Name = "centralStationBedsideDetails8";
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails8.Size = new System.Drawing.Size(200, 155);
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails8.TabIndex = 7;
-            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.centralStationBedsideDetails_MouseDown);
+            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.CentralStationBedsideDetails_MouseDown);
             // 
             // centralStationBedsideDetails7
             // 
@@ -83,7 +83,7 @@
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails7.Name = "centralStationBedsideDetails7";
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails7.Size = new System.Drawing.Size(200, 155);
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails7.TabIndex = 6;
-            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.centralStationBedsideDetails_MouseDown);
+            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.CentralStationBedsideDetails_MouseDown);
             // 
             // centralStationBedsideDetails6
             // 
@@ -94,7 +94,7 @@
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails6.Name = "centralStationBedsideDetails6";
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails6.Size = new System.Drawing.Size(200, 155);
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails6.TabIndex = 5;
-            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.centralStationBedsideDetails_MouseDown);
+            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.CentralStationBedsideDetails_MouseDown);
             // 
             // centralStationBedsideDetails5
             // 
@@ -105,7 +105,7 @@
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails5.Name = "centralStationBedsideDetails5";
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails5.Size = new System.Drawing.Size(200, 155);
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails5.TabIndex = 4;
-            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.centralStationBedsideDetails_MouseDown);
+            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.CentralStationBedsideDetails_MouseDown);
             // 
             // centralStationBedsideDetails4
             // 
@@ -116,7 +116,7 @@
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails4.Name = "centralStationBedsideDetails4";
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails4.Size = new System.Drawing.Size(200, 155);
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails4.TabIndex = 3;
-            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.centralStationBedsideDetails_MouseDown);
+            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.CentralStationBedsideDetails_MouseDown);
             // 
             // centralStationBedsideDetails3
             // 
@@ -127,7 +127,7 @@
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails3.Name = "centralStationBedsideDetails3";
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails3.Size = new System.Drawing.Size(200, 155);
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails3.TabIndex = 2;
-            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.centralStationBedsideDetails_MouseDown);
+            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.CentralStationBedsideDetails_MouseDown);
             // 
             // centralStationBedsideDetails2
             // 
@@ -138,7 +138,7 @@
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails2.Name = "centralStationBedsideDetails2";
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails2.Size = new System.Drawing.Size(200, 155);
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails2.TabIndex = 1;
-            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.centralStationBedsideDetails_MouseDown);
+            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.CentralStationBedsideDetails_MouseDown);
             // 
             // centralStationBedsideDetails1
             // 
@@ -149,7 +149,7 @@
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails1.Name = "centralStationBedsideDetails1";
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails1.Size = new System.Drawing.Size(200, 155);
             BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails1.TabIndex = 0;
-            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.centralStationBedsideDetails_MouseDown);
+            BedsideMonitoring.CentralStationOverview.centralStationBedsideDetails1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.CentralStationBedsideDetails_MouseDown);
             // 
             // btnRegCon
             // 
@@ -159,7 +159,7 @@
             this.btnRegCon.TabIndex = 10;
             this.btnRegCon.Text = "Register Consultant";
             this.btnRegCon.UseVisualStyleBackColor = true;
-            this.btnRegCon.Click += new System.EventHandler(this.btnRegCon_Click);
+            this.btnRegCon.Click += new System.EventHandler(this.BtnRegCon_Click);
             // 
             // btnDeRegCon
             // 
@@ -169,7 +169,7 @@
             this.btnDeRegCon.TabIndex = 11;
             this.btnDeRegCon.Text = "Deregister Consultant";
             this.btnDeRegCon.UseVisualStyleBackColor = true;
-            this.btnDeRegCon.Click += new System.EventHandler(this.btnDeRegCon_Click);
+            this.btnDeRegCon.Click += new System.EventHandler(this.BtnDeRegCon_Click);
             // 
             // btnAlarmResponseTimes
             // 
@@ -179,7 +179,7 @@
             this.btnAlarmResponseTimes.TabIndex = 12;
             this.btnAlarmResponseTimes.Text = "Alarm Response Times";
             this.btnAlarmResponseTimes.UseVisualStyleBackColor = true;
-            this.btnAlarmResponseTimes.Click += new System.EventHandler(this.btnAlarmResponseTimes_Click);
+            this.btnAlarmResponseTimes.Click += new System.EventHandler(this.BtnAlarmResponseTimes_Click);
             // 
             // CentralStationOverview
             // 

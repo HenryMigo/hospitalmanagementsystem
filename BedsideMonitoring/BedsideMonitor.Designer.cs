@@ -45,7 +45,7 @@
             this.btnSetModuleLimits.TabIndex = 4;
             this.btnSetModuleLimits.Text = "&Set Limits";
             this.btnSetModuleLimits.UseVisualStyleBackColor = true;
-            this.btnSetModuleLimits.Click += new System.EventHandler(this.btnSetModuleLimits_Click);
+            this.btnSetModuleLimits.Click += new System.EventHandler(this.BtnSetModuleLimits_Click);
             // 
             // lblBed
             // 
@@ -65,7 +65,7 @@
             this.btn_mute.TabIndex = 10;
             this.btn_mute.Text = "Mute Bitches";
             this.btn_mute.UseVisualStyleBackColor = true;
-            this.btn_mute.Click += new System.EventHandler(this.btn_mute_Click);
+            this.btn_mute.Click += new System.EventHandler(this.Btn_mute_Click);
             // 
             // bedsideModule4
             // 

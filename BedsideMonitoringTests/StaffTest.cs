@@ -8,7 +8,7 @@ namespace BedsideMonitoringTests
     public class StaffTest
     {
         //Act
-        MedicalStaff testStaff = new MedicalStaff();
+        readonly MedicalStaff testStaff = new MedicalStaff();
 
         private void RegisterAndDeregister()
         {

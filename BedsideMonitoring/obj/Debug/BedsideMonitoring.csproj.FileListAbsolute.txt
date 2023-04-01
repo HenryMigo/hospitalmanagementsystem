@@ -126,3 +126,36 @@ X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj
 X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.csproj.GenerateResource.Cache
 X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.exe
 X:\Mac Stuff\Downloads\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoring\obj\Debug\BedsideMonitoring.pdb
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabase.mdf
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabase_log.ldf
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\Resources\Mutable.wav
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabaseDataSet.cs
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabaseDataSet.Designer.cs
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\Resources\Bed 1.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\Resources\Bed 2.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\Resources\Bed 3.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\Resources\Bed 4.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\Resources\Bed 5.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\Resources\Bed 6.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\Resources\Bed 8.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xsc
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xsd
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xss
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\BedsideMonitoring.exe.config
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\BedsideMonitoring.exe
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\bin\Debug\BedsideMonitoring.pdb
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.csproj.AssemblyReference.cache
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.csproj.SuggestedBindingRedirects.cache
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.AlarmTimes.resources
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.BedsideModule.resources
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.BedsideMonitor.resources
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.CentralStationBedsideDetails.resources
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.CentralStationOverview.resources
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.Properties.Resources.resources
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.RegisterConsultant.resources
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.ModuleSelection.resources
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.StaffShifts.resources
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.csproj.GenerateResource.cache
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.csproj.CoreCompileInputs.cache
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.exe
+D:\dev\hospitalmanagementsystem\BedsideMonitoring\obj\Debug\BedsideMonitoring.pdb

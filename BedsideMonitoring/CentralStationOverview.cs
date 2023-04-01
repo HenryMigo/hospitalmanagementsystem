@@ -1,40 +1,46 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BedsideMonitoring
 {
     public partial class CentralStationOverview : Form
     {
-        CSVReader _CSVReader = new CSVReader();
+        private static List<BedsideController> listOfBedsideControllers = new List<BedsideController>();
+
         public CentralStationOverview()
         {
             InitializeComponent();
             PopulateCentralStationBedsideDetails();
-            //streamsntimeOne();
-            
         }
 
         private void PopulateCentralStationBedsideDetails()
         {
             centralStationBedsideDetails1.lblBedNumber.Text = "Bed 1";
-            centralStationBedsideDetails2.lblBedNumber.Text = "Bed 2";
-            centralStationBedsideDetails3.lblBedNumber.Text = "Bed 3";
-            centralStationBedsideDetails4.lblBedNumber.Text = "Bed 4";
-            centralStationBedsideDetails5.lblBedNumber.Text = "Bed 5";
-            centralStationBedsideDetails6.lblBedNumber.Text = "Bed 6";
-            centralStationBedsideDetails7.lblBedNumber.Text = "Bed 7";
-            centralStationBedsideDetails8.lblBedNumber.Text = "Bed 8";
-            //centralStationBedsideDetails1.
-        }
+            centralStationBedsideDetails1.BedId = 1;
 
-#region centralStationBedsideDetails Accessors
+            centralStationBedsideDetails2.lblBedNumber.Text = "Bed 2";
+            centralStationBedsideDetails2.BedId = 2;
+
+            centralStationBedsideDetails3.lblBedNumber.Text = "Bed 3";
+            centralStationBedsideDetails3.BedId = 3;
+
+            centralStationBedsideDetails4.lblBedNumber.Text = "Bed 4";
+            centralStationBedsideDetails4.BedId = 4;
+
+            centralStationBedsideDetails5.lblBedNumber.Text = "Bed 5";
+            centralStationBedsideDetails5.BedId = 5;
+
+            centralStationBedsideDetails6.lblBedNumber.Text = "Bed 6";
+            centralStationBedsideDetails6.BedId = 6;
+
+            centralStationBedsideDetails7.lblBedNumber.Text = "Bed 7";
+            centralStationBedsideDetails7.BedId = 7;
+
+            centralStationBedsideDetails8.lblBedNumber.Text = "Bed 8";
+            centralStationBedsideDetails8.BedId = 8;
+        }
 
         public static CentralStationBedsideDetails CentralStationBedsideDetails1
         {
@@ -85,145 +91,66 @@ namespace BedsideMonitoring
             set { centralStationBedsideDetails8 = value; }
         }
 
-        #endregion
-
-        #region
-        /*Timer stoptime = new Timer();*/
-
-       // public void streamsntimeOne()
-       //{
-       //     CSVReader _CSVReader = new CSVReader();
-       //     _CSVReader.csvVitalReader(CentralStationBedsideDetails1.lblBedNumber.Text);
-       //     stoptime.Tick += Stoptime_TickOne;
-       //     stoptime.Interval = 100;
-       //     stoptime.Start();
-       // }
-
-       // public void Stoptime_TickOne(object sender, EventArgs e)
-       // {
-       //     _CSVReader.SetPatientData(_CSVReader.csvGetData());
-       //     CentralStationBedsideDetails1.label1.Text = _CSVReader.Col1;
-       //     CentralStationBedsideDetails1.label2.Text = _CSVReader.Col2;
-       //     CentralStationBedsideDetails1.label3.Text = _CSVReader.Col3;
-       //     CentralStationBedsideDetails1.label4.Text = _CSVReader.Col4;
-       // }
-
-
-
-
-
-        #endregion
-
-
         //Register staff button
-        private void btnRegisterStaff_Click(object sender, EventArgs e)
+        private void BtnRegisterStaff_Click(object sender, EventArgs e)
         {
             Hide();
-            new StaffShifts().Show();          
+            new StaffShifts().Show();
         }
         // Register Consultant
-        private void btnRegCon_Click(object sender, EventArgs e)
+        private void BtnRegCon_Click(object sender, EventArgs e)
         {
             Hide();
             new RegisterConsultant().Show();
         }
         // Deregister Consultant
-        private void btnDeRegCon_Click(object sender, EventArgs e)
+        private void BtnDeRegCon_Click(object sender, EventArgs e)
         {
             ConsultantStaff.Instance.ContactInformation = null;
             ConsultantStaff.Instance.NameStaff = null;
         }
 
         //Exit button
-        private void btnExit_Click(object sender, EventArgs e)
+        private void BtnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
         /*
-        I need the centralStationBedside to know which controller is his from here on out. As is
-        it always refers to the one that is created here. So it always thinks the controller has been
-        created regardless of which bedside you press.
-                
+            I need the centralStationBedside to know which controller is his from here on out. As is
+            it always refers to the one that is created here. So it always thinks the controller has been
+            created regardless of which bedside you press.
         */
-        private void centralStationBedsideDetails_MouseDown(object sender, MouseEventArgs e)
+        private void CentralStationBedsideDetails_MouseDown(object sender, MouseEventArgs e)
         {
             CentralStationBedsideDetails clickedCentralStationBedsideDetails = sender as CentralStationBedsideDetails;
 
-            for (int i = 0; i <= BedsideController.ListOfBedsideControllers.Count; i++)
+            var controller = listOfBedsideControllers.FirstOrDefault(x => x.BedId == clickedCentralStationBedsideDetails.BedId);
+
+            if (controller == null)
             {
-                    if (BedsideController.ListOfBedsideControllers.Count == 0 || BedsideController.ListOfBedsideControllers[i] == null)
-                    {
-                        BedsideController.ListOfBedsideControllers.Add(new BedsideController());
-                        BedsideController.ListOfBedsideControllers[i].CentralStationBedsideDetails = clickedCentralStationBedsideDetails;
-                        BedsideController.ListOfBedsideControllers[i].OpenModuleSelectionForm(BedsideController.ListOfBedsideControllers[i]);
-                        Hide();
-                        break;
-                    }
-                    else if (BedsideController.ListOfBedsideControllers[i].CentralStationBedsideDetails == clickedCentralStationBedsideDetails)
-                    {
-                        BedsideController.ListOfBedsideControllers[i].OpenBedsideMonitor();
-                        Hide();
-                        break;
-                    }
-               
+                var newController = new BedsideController
+                {
+                    BedId = int.Parse(clickedCentralStationBedsideDetails.lblBedNumber.Text.Split(' ')[1]),
+                    CentralStationBedsideDetails = clickedCentralStationBedsideDetails
+                };
+
+                newController.OpenModuleSelectionForm(newController);
+                listOfBedsideControllers.Add(newController);
+
+                Hide();
+            }
+            else if (controller.CentralStationBedsideDetails == clickedCentralStationBedsideDetails)
+            {
+                controller.OpenBedsideMonitor();
+                Hide();
             }
         }
 
-        private void btnAlarmResponseTimes_Click(object sender, EventArgs e)
+        private void BtnAlarmResponseTimes_Click(object sender, EventArgs e)
         {
             Hide();
             new AlarmTimes().Show();
         }
-
-       
-        //public void BedBackgroudFlash()
-        //{
-
-        //    Alarm.AlarmTriggered = true;
-
-        //    if (Alarm.AlarmTriggered == true)
-        //    {
-        //        switch (Alarm.BedOfAlarm)
-        //        {
-        //            case "bed1":
-        //                DialogResult result = MessageBox.Show("Bed 1 is in alarm!", "Alarm", MessageBoxButtons.YesNo);
-        //                while (Alarm.AlarmTriggered == true)
-        //                {
-        //                    centralStationBedsideDetails1.BackColor = Color.DarkRed;
-        //                    timer.Enabled = true;
-        //                    centralStationBedsideDetails1.BackColor = DefaultBackColor;
-
-        //                    if (result == DialogResult.Yes)
-        //                    {
-        //                        Alarm.AlarmTriggered = false;
-        //                    }
-        //                    else
-        //                    {
-        //                        break;
-        //                    }
-        //                }
-        //                break;
-        //        }
-        //    }
-
-        //    /*
-        // * if alarm = true
-        // *      {
-        // *          Switch (bedOfAlarm)
-        // *          
-        // *              case Bed 1
-        // *                  while alarm  = true
-        // *                  {
-        // *                      centralStationBedsideDetails1.BackColor = Color.DarkRed;
-        // *                      insert timer, not use threading.sleep as this will freeze UI
-        // *                      centralStationBedsideDetails1.BackColor = DefaultBackColor;
-        // *                  }
-        // *              Default messagebox.show("alarm not true for any beds, should alarm be disabled?"yes no);
-        // *      }
-         
-        // */
-        //}
-
     }
 }

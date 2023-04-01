@@ -1,29 +1,14 @@
 ﻿using System;
-using System.IO;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Windows.Threading;
 
 namespace BedsideMonitoring
 {
     public partial class BedsideMonitor : Form
     {
-        CSVReader _Csvreader = new CSVReader();
-        Alarm _alarm = new Alarm();
-        Mail _mail = new Mail();
-        Timer a = new Timer();
-        //System.Timers.Timer stopwatch = new System.Timers.Timer(100);
-
-
-
-
-
+        readonly CSVReader _Csvreader = new CSVReader();
+        readonly Alarm _alarm = new Alarm();
+        readonly Mail _mail = new Mail();
+        readonly Timer a = new Timer();
 
         private int PatientUpperLimit1,
                 PatientLowerLimit1,
@@ -33,11 +18,11 @@ namespace BedsideMonitoring
                 PatientLowerLimit3,
                 PatientUpperLimit4,
                 PatientLowerLimit4;
-        private string /*BN,*/ PN;
 
-        private void btn_mute_Click(object sender, EventArgs e)
+        private readonly string PN;
+
+        private void Btn_mute_Click(object sender, EventArgs e)
         {
-            //_alarm.MuteAlarm();
             a.Stop();
             _alarm.AlarmCurrentlyTriggered = false;
             this.BackColor = System.Drawing.SystemColors.Control;
@@ -56,20 +41,17 @@ namespace BedsideMonitoring
             PN = PName;
             a.Tick += A_Tick;
             a.Interval = 100;
-            _Csvreader.csvVitalReader(bedName);
+            _Csvreader.CsvVitalReader(bedName);
             //
             stopwatch.Tick += Stopwatch_Tick1;
             stopwatch.Interval = 100;
             stopwatch.Start();
-
-           
-            //// bedsideModule1.lblPatientVital.Text = ;
         }
 
         private void Stopwatch_Tick1(object sender, EventArgs e)
         {
             
-            _Csvreader.SetPatientData(_Csvreader.csvGetData());
+            _Csvreader.SetPatientData(_Csvreader.CsvGetData());
             bedsideModule1.lblPatientVital.Text = _Csvreader.Col1;
             bedsideModule2.lblPatientVital.Text = _Csvreader.Col2;
             bedsideModule3.lblPatientVital.Text = _Csvreader.Col3;
@@ -78,12 +60,13 @@ namespace BedsideMonitoring
 
        
 
-        private void btnSetModuleLimits_Click(object sender, EventArgs e)
+        private void BtnSetModuleLimits_Click(object sender, EventArgs e)
         {
-            int col1CSV = Int32.Parse(bedsideModule1.lblPatientVital.Text);
-            int col2CSV = Int32.Parse(bedsideModule2.lblPatientVital.Text);
-            int col3CSV = Int32.Parse(bedsideModule3.lblPatientVital.Text);
-            int col4CSV = Int32.Parse(bedsideModule4.lblPatientVital.Text);
+            int col1CSV = int.Parse(bedsideModule1.lblPatientVital.Text);
+            int col2CSV = int.Parse(bedsideModule2.lblPatientVital.Text);
+            int col3CSV = int.Parse(bedsideModule3.lblPatientVital.Text);
+            int col4CSV = int.Parse(bedsideModule4.lblPatientVital.Text);
+            
             SetModuleLimits(bedsideModule1.numericUpDown1.Text, bedsideModule1.numericUpDown2.Text, ref PatientUpperLimit1, ref PatientLowerLimit1);
             SetModuleLimits(bedsideModule2.numericUpDown1.Text, bedsideModule2.numericUpDown2.Text, ref PatientUpperLimit2, ref PatientLowerLimit2);
             SetModuleLimits(bedsideModule3.numericUpDown1.Text, bedsideModule3.numericUpDown2.Text, ref PatientUpperLimit3, ref PatientLowerLimit3);
@@ -92,8 +75,6 @@ namespace BedsideMonitoring
             // Module1
             if (PatientUpperLimit1 < col1CSV)
             {
-                
-                
                 a.Start();
                 _alarm.TriggerAlarm();
                 _alarm.SendAlertMessageAlarm( "Nurse",PN ,_alarm.BedOfAlarm,bedsideModule1.lblBedsideModule.Text);
@@ -170,8 +151,8 @@ namespace BedsideMonitoring
         private void SetModuleLimits(string numericUpDown1, string numericUpDown2, ref int patientUpperLimit, ref int patientLowerLimit)
         {
             if (patientUpperLimit < 0) throw new ArgumentOutOfRangeException("patientUpperLimit");
-            patientUpperLimit = Convert.ToInt32(numericUpDown1);
-            patientLowerLimit = Convert.ToInt32(numericUpDown2);
+            patientUpperLimit = int.Parse(numericUpDown1);
+            patientLowerLimit = int.Parse(numericUpDown2);
         }
 
         private void BedsideMonitor_FormClosing(object sender, FormClosingEventArgs e)

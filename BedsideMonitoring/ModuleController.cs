@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace BedsideMonitoring
 {
@@ -18,7 +14,7 @@ namespace BedsideMonitoring
 
     class HeartRate : ModuleController
     {
-        private static string moduleName = "Heart Rate";
+        private static readonly string moduleName = "Heart Rate";
 
         public static string ModuleName()
         {
@@ -33,7 +29,7 @@ namespace BedsideMonitoring
 
     class Temperature : ModuleController
     {
-        private static string moduleName = "Temperature";
+        private static readonly string moduleName = "Temperature";
 
         public static string ModuleName()
         {
@@ -48,7 +44,7 @@ namespace BedsideMonitoring
 
     class BreathingRate : ModuleController
     {
-        private static string moduleName = "Breathing Rate";
+        private static readonly string moduleName = "Breathing Rate";
 
         public static string ModuleName()
         {
@@ -63,7 +59,7 @@ namespace BedsideMonitoring
 
     class BloodPressure : ModuleController
     {
-        private static string moduleName = "Blood Pressure";
+        private static readonly string moduleName = "Blood Pressure";
 
         public static string ModuleName()
         {

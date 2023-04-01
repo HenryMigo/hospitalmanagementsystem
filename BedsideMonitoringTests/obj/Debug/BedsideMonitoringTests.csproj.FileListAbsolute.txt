@@ -56,3 +56,28 @@ C:\Users\Christopher\Desktop\V2.0\BedsideMonitoring\BedsideMonitoringTests\bin\D
 \\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.csprojResolveAssemblyReference.cache
 \\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.dll
 \\Mac\Home\Desktop\Work\V2.0\BedsideMonitoring\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.pdb
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabase.mdf
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabase_log.ldf
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\Resources\Mutable.wav
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.cs
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.Designer.cs
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\Resources\Bed 1.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\Resources\Bed 2.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\Resources\Bed 3.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\Resources\Bed 4.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\Resources\Bed 5.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\Resources\Bed 6.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\Resources\Bed 8.csv
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xsc
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xsd
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\RegisteringDerigesteringDatabaseDataSet.xss
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\BedsideMonitoringTests.dll
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\BedsideMonitoringTests.pdb
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\BedsideMonitoring.exe
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\BedsideMonitoring.pdb
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\bin\Debug\BedsideMonitoring.exe.config
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.csproj.AssemblyReference.cache
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.csproj.CoreCompileInputs.cache
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.csproj.CopyComplete
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.dll
+D:\dev\hospitalmanagementsystem\BedsideMonitoringTests\obj\Debug\BedsideMonitoringTests.pdb

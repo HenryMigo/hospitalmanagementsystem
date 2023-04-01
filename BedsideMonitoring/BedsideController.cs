@@ -1,28 +1,20 @@
 ﻿using System;
 using System.IO;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Reflection;
+using System.Windows.Forms;
 
 namespace BedsideMonitoring
 {
     public class BedsideController
     {
-        private static List<BedsideController> listOfBedsideControllers = new List<BedsideController>();
+        public int BedId { get; set; }
         private BedsideMonitor bedsideMonitor;
         private ModuleSelection moduleSelection;
         private CentralStationBedsideDetails centralStationBedsideDetails;
         private string module1Name, module2Name, module3Name, module4Name, bedName, patientName;
-        private CSVReader _csvReader = new CSVReader();
-            
-        public static List<BedsideController> ListOfBedsideControllers
-        {
-            get { return listOfBedsideControllers; }
-            set { listOfBedsideControllers = value; }
-        }
+        private readonly CSVReader _csvReader = new CSVReader();
+
         public CentralStationBedsideDetails CentralStationBedsideDetails
         {
             get { return centralStationBedsideDetails; }
@@ -47,24 +39,23 @@ namespace BedsideMonitoring
             OpenBedsideMonitor();
             SetCentralStationBedsideDetails();
             Stremr();
-
-
-
         }
 
-        System.Windows.Forms.Timer stopwatch = new System.Windows.Forms.Timer();
+        readonly Timer stopwatch = new Timer();
+
         public void Stremr()
         {
-            _csvReader.csvVitalReader(bedName);
+            _csvReader.CsvVitalReader(bedName);
             stopwatch.Tick += Stopwatch_Tick1;
             stopwatch.Interval = 100;
             stopwatch.Start();
 
         }
+
         private void Stopwatch_Tick1(object sender, EventArgs e)
         {
 
-            _csvReader.SetPatientData(_csvReader.csvGetData());
+            _csvReader.SetPatientData(_csvReader.CsvGetData());
             centralStationBedsideDetails.label1.Text = _csvReader.Col1;
             centralStationBedsideDetails.label2.Text = _csvReader.Col2;
             centralStationBedsideDetails.label3.Text = _csvReader.Col3;
@@ -79,8 +70,6 @@ namespace BedsideMonitoring
             centralStationBedsideDetails.lblPatientVital4.Text = module4Name;
             centralStationBedsideDetails.lblBedNumber.Text = bedName;
             centralStationBedsideDetails.lblPatientName.Text = patientName;
-
-
         }
 
         public void OpenBedsideMonitor()
@@ -88,30 +77,14 @@ namespace BedsideMonitoring
             bedsideMonitor = new BedsideMonitor(bedName, module1Name, module2Name, module3Name, module4Name, patientName);
             bedsideMonitor.Show();
         }
-
-
-
-
     }
-
-
-
 
     public class CSVReader
     {
-        //private CentralStationBedsideDetails centralStationBedsideDetails;
         StreamReader dataFile;
-        //System.Timers.Timer stopwatch = new System.Timers.Timer(100);
-        // Used to read the CSV file (Which is created)
 
-
-
-
-        public void csvVitalReader(string bedNo /*string fileName*/)
+        public void CsvVitalReader(string bedNo)
         {
-            //bedNo = centralStationBedsideDetails.lblBedNumber.Text;
-            //string fileName = @""+bedNo+".csv";
-            //string path = Path.
             string path = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
             string location = Path.Combine( Directory.GetParent(path).Parent.FullName, "Resources");
             string fileName = @"\"+ bedNo + ".csv";
@@ -119,12 +92,7 @@ namespace BedsideMonitoring
             dataFile.ReadLine();
         }
 
-
-        
-
-
-
-        public string csvGetData()
+        public string CsvGetData()
         {
             if(!dataFile.EndOfStream)
             {
@@ -137,19 +105,12 @@ namespace BedsideMonitoring
                 dataFile.ReadLine();
                 return dataFile.ReadLine();
             }
-            
         }
-
-
 
         public string Col1 { get; private set; }
         public string Col2 { get; private set; }
         public string Col3 { get; private set; }
         public string Col4 { get; private set; }
-
-
-
-
 
         // Sets the patient data.
         public void SetPatientData(string patientData)
@@ -160,7 +121,6 @@ namespace BedsideMonitoring
             Col3 = (dataItems[2]);
             Col4 = (dataItems[3]);
         }
-      
     }
 }
     

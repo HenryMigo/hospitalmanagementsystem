@@ -85,8 +85,7 @@
             this.cmbbModule1.Name = "cmbbModule1";
             this.cmbbModule1.Size = new System.Drawing.Size(264, 21);
             this.cmbbModule1.TabIndex = 4;
-            this.cmbbModule1.SelectionChangeCommitted += new System.EventHandler(this.cmbbModule_SelectionChangeCommitted);
-            this.cmbbModule1.Click += new System.EventHandler(this.cmbbModule_Click);
+            this.cmbbModule1.SelectionChangeCommitted += new System.EventHandler(this.CmbbModule_SelectionChangeCommitted);
             // 
             // cmbbModule2
             // 
@@ -95,8 +94,7 @@
             this.cmbbModule2.Name = "cmbbModule2";
             this.cmbbModule2.Size = new System.Drawing.Size(264, 21);
             this.cmbbModule2.TabIndex = 5;
-            this.cmbbModule2.SelectionChangeCommitted += new System.EventHandler(this.cmbbModule_SelectionChangeCommitted);
-            this.cmbbModule2.Click += new System.EventHandler(this.cmbbModule_Click);
+            this.cmbbModule2.SelectionChangeCommitted += new System.EventHandler(this.CmbbModule_SelectionChangeCommitted);
             // 
             // cmbbModule3
             // 
@@ -105,8 +103,7 @@
             this.cmbbModule3.Name = "cmbbModule3";
             this.cmbbModule3.Size = new System.Drawing.Size(264, 21);
             this.cmbbModule3.TabIndex = 6;
-            this.cmbbModule3.SelectionChangeCommitted += new System.EventHandler(this.cmbbModule_SelectionChangeCommitted);
-            this.cmbbModule3.Click += new System.EventHandler(this.cmbbModule_Click);
+            this.cmbbModule3.SelectionChangeCommitted += new System.EventHandler(this.CmbbModule_SelectionChangeCommitted);
             // 
             // cmbbModule4
             // 
@@ -115,8 +112,7 @@
             this.cmbbModule4.Name = "cmbbModule4";
             this.cmbbModule4.Size = new System.Drawing.Size(264, 21);
             this.cmbbModule4.TabIndex = 7;
-            this.cmbbModule4.SelectionChangeCommitted += new System.EventHandler(this.cmbbModule_SelectionChangeCommitted);
-            this.cmbbModule4.Click += new System.EventHandler(this.cmbbModule_Click);
+            this.cmbbModule4.SelectionChangeCommitted += new System.EventHandler(this.CmbbModule_SelectionChangeCommitted);
             // 
             // btnConfirm
             // 
@@ -126,7 +122,7 @@
             this.btnConfirm.TabIndex = 8;
             this.btnConfirm.Text = "Confirm";
             this.btnConfirm.UseVisualStyleBackColor = true;
-            this.btnConfirm.Click += new System.EventHandler(this.btnConfirm_Click);
+            this.btnConfirm.Click += new System.EventHandler(this.BtnConfirm_Click);
             // 
             // lblName
             // 
