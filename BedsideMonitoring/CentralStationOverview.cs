@@ -7,7 +7,7 @@ namespace BedsideMonitoring
 {
     public partial class CentralStationOverview : Form
     {
-        private static List<BedsideController> listOfBedsideControllers = new List<BedsideController>();
+        private static readonly List<BedsideController> listOfBedsideControllers = new List<BedsideController>();
 
         public CentralStationOverview()
         {
