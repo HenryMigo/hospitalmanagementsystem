@@ -396,5 +396,3 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-/.idea/.idea.Entrotrackpia.Core/.idea
-/BedsideMonitoring/bin/Debug/BedsideMonitoring.exe
