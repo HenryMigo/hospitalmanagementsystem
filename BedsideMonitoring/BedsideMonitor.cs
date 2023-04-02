@@ -5,10 +5,10 @@ namespace BedsideMonitoring
 {
     public partial class BedsideMonitor : Form
     {
-        readonly CSVReader _Csvreader = new CSVReader();
-        readonly Alarm _alarm = new Alarm();
-        readonly Mail _mail = new Mail();
-        readonly Timer a = new Timer();
+        readonly CSVReader _Csvreader = new();
+        readonly Alarm _alarm = new();
+        readonly Mail _mail = new();
+        readonly Timer a = new();
 
         private int PatientUpperLimit1,
                 PatientLowerLimit1,
@@ -31,7 +31,7 @@ namespace BedsideMonitoring
         public BedsideMonitor(string bedName, string module1Name, string module2Name, string module3Name, string module4Name, string PName)
         {
             InitializeComponent();
-            Timer stopwatch = new Timer();      
+            Timer stopwatch = new();
             bedsideModule1.lblBedsideModule.Text = module1Name;
             bedsideModule2.lblBedsideModule.Text = module2Name;
             bedsideModule3.lblBedsideModule.Text = module3Name;
@@ -66,7 +66,7 @@ namespace BedsideMonitoring
             int col2CSV = int.Parse(bedsideModule2.lblPatientVital.Text);
             int col3CSV = int.Parse(bedsideModule3.lblPatientVital.Text);
             int col4CSV = int.Parse(bedsideModule4.lblPatientVital.Text);
-            
+
             SetModuleLimits(bedsideModule1.numericUpDown1.Text, bedsideModule1.numericUpDown2.Text, ref PatientUpperLimit1, ref PatientLowerLimit1);
             SetModuleLimits(bedsideModule2.numericUpDown1.Text, bedsideModule2.numericUpDown2.Text, ref PatientUpperLimit2, ref PatientLowerLimit2);
             SetModuleLimits(bedsideModule3.numericUpDown1.Text, bedsideModule3.numericUpDown2.Text, ref PatientUpperLimit3, ref PatientLowerLimit3);
@@ -148,9 +148,9 @@ namespace BedsideMonitoring
             }
         }
 
-        private void SetModuleLimits(string numericUpDown1, string numericUpDown2, ref int patientUpperLimit, ref int patientLowerLimit)
+        private static void SetModuleLimits(string numericUpDown1, string numericUpDown2, ref int patientUpperLimit, ref int patientLowerLimit)
         {
-            if (patientUpperLimit < 0) throw new ArgumentOutOfRangeException("patientUpperLimit");
+            if (patientUpperLimit < 0) throw new ArgumentOutOfRangeException(nameof(patientUpperLimit));
             patientUpperLimit = int.Parse(numericUpDown1);
             patientLowerLimit = int.Parse(numericUpDown2);
         }

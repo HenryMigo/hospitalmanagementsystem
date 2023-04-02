@@ -72,7 +72,7 @@ namespace BedsideMonitoring
 
         private void SaveTextField(int staffIDINT)
         {
-            int rows = DatabaseController.DBInstance.InsertRowInTable(staffIDINT, DateTime.Now, Constants.insertRow);
+            int rows = DatabaseController.InsertRowInTable(staffIDINT, DateTime.Now, Constants.insertRow);
             if (rows == Constants.errNoRowInserted)
             {
                 MessageBox.Show(Constants.errInsertInTableStr);
@@ -89,7 +89,7 @@ namespace BedsideMonitoring
 
         private void btnDeregister_Click(object sender, EventArgs e)
         {
-            int rows = DatabaseController.DBInstance.DeregisterRow(DateTime.Now, Constants.insertRow);
+            int rows = DatabaseController.DeregisterRow(DateTime.Now, Constants.insertRow);
             if (rows == Constants.errNoRowInserted)
             {
                 MessageBox.Show(Constants.errInsertInTableStr);

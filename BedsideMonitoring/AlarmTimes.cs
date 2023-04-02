@@ -44,7 +44,7 @@ namespace BedsideMonitoring
 
         public void SaveTextField(DateTime triggerTime, DateTime muteTime)
         {
-            int rows = DatabaseController.DBInstance.InsertRowInTimes(triggerTime, muteTime, Constants.insertTime);
+            int rows = DatabaseController.InsertRowInTimes(triggerTime, muteTime, Constants.insertTime);
             if (rows == Constants.errNoRowInserted)
             {
                 MessageBox.Show(Constants.errInsertInTableStr);

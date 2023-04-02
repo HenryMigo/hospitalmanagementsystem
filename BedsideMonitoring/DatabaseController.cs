@@ -1,6 +1,6 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using System;
 using System.Data;
-using System.Data.SqlClient;
 
 namespace BedsideMonitoring
 {
@@ -18,10 +18,7 @@ namespace BedsideMonitoring
         {
             get
             {
-                if (dbInstance == null)
-                {
-                    dbInstance = new DatabaseController();
-                }
+                dbInstance ??= new DatabaseController();
 
                 return dbInstance;
             }
@@ -59,116 +56,102 @@ namespace BedsideMonitoring
             dataAdapter.Fill(dataSet);
 
             CloseConnection();
-            
+
             return dataSet;
 
         }
 
         //Get a data table from the DB for a certain sql statement
-        public DataTable GetDataTable(string sqlQuery)
+        public static DataTable GetDataTable(string sqlQuery)
         {
             //Create a dataTable object 
-            DataTable dataTable = new DataTable();
+            DataTable dataTable = new();
 
             //Create the sqlConnection
-            using (SqlConnection sqlConnection = new SqlConnection(connectStr))
+            using (SqlConnection sqlConnection = new(connectStr))
             {
                 sqlConnection.Open();
 
-                using (SqlCommand command = new SqlCommand(sqlQuery, sqlConnection))
-                {
-                    dataTable.Load(command.ExecuteReader());
-                }
+                using SqlCommand command = new(sqlQuery, sqlConnection);
+                dataTable.Load(command.ExecuteReader());
             }
             return dataTable;
         }
 
         //Insert a row in the table
-        public int InsertRowInTable(int staffID, DateTime registered, string sqlQuery)
+        public static int InsertRowInTable(int staffID, DateTime registered, string sqlQuery)
         {
             //Create the sql connection
-            using (SqlConnection sqlConnection = new SqlConnection(connectStr))
+            using SqlConnection sqlConnection = new(connectStr);
+            //Create and initialise an sql command
+            using SqlCommand sqlCommand = new(sqlQuery, sqlConnection);
+            //Set the parameters of the sql statement
+            sqlCommand.Parameters.AddWithValue("@StaffID", staffID);
+            sqlCommand.Parameters.AddWithValue("@Registered", registered);
+
+            //Open the connection and execute the command containing the sql statement
+            try
             {
-                //Create and initialise an sql command
-                using (SqlCommand sqlCommand = new SqlCommand(sqlQuery, sqlConnection))
-                {
-                    //Set the parameters of the sql statement
-                    sqlCommand.Parameters.AddWithValue("@StaffID", staffID);
-                    sqlCommand.Parameters.AddWithValue("@Registered", registered);
+                sqlConnection.Open();
+                int noOfRows = sqlCommand.ExecuteNonQuery();
 
-                    //Open the connection and execute the command containing the sql statement
-                    try
-                    {
-                        sqlConnection.Open();
-                        int noOfRows = sqlCommand.ExecuteNonQuery();
-
-                        //Return the no of rows inserted(is 1 if executed correctly)
-                        return noOfRows;
-                    }
-                    catch (SqlException)
-                    {
-                        //Return an error code
-                        return Constants.errNoRowInserted;
-                    }
-                }
+                //Return the no of rows inserted(is 1 if executed correctly)
+                return noOfRows;
+            }
+            catch (SqlException)
+            {
+                //Return an error code
+                return Constants.errNoRowInserted;
             }
         }
 
-        public int DeregisterRow(DateTime deRegistered, string sqlQuery)
+        public static int DeregisterRow(DateTime deRegistered, string sqlQuery)
         {
-            using (SqlConnection sqlConnection = new SqlConnection(connectStr))
+            using SqlConnection sqlConnection = new(connectStr);
+            //Create and initialise an sql command
+            using SqlCommand sqlCommand = new(sqlQuery, sqlConnection);
+            //Set the parameters of the sql statement
+            sqlCommand.Parameters.AddWithValue("@Registered", deRegistered);
+
+            //Open the connection and execute the command containing the sql statement
+            try
             {
-                //Create and initialise an sql command
-                using (SqlCommand sqlCommand = new SqlCommand(sqlQuery, sqlConnection))
-                {
-                    //Set the parameters of the sql statement
-                    sqlCommand.Parameters.AddWithValue("@Registered", deRegistered);
+                sqlConnection.Open();
+                int noOfRows = sqlCommand.ExecuteNonQuery();
 
-                    //Open the connection and execute the command containing the sql statement
-                    try
-                    {
-                        sqlConnection.Open();
-                        int noOfRows = sqlCommand.ExecuteNonQuery();
-
-                        //Return the no of rows inserted(is 1 if executed correctly)
-                        return noOfRows;
-                    }
-                    catch (SqlException)
-                    {
-                        //Return an error code
-                        return Constants.errNoRowInserted;
-                    }
-                }
+                //Return the no of rows inserted(is 1 if executed correctly)
+                return noOfRows;
+            }
+            catch (SqlException)
+            {
+                //Return an error code
+                return Constants.errNoRowInserted;
             }
         }
 
-    public int InsertRowInTimes(DateTime triggerTime, DateTime muteTime, string sqlQuery)
+        public static int InsertRowInTimes(DateTime triggerTime, DateTime muteTime, string sqlQuery)
         {
             //Create the sql connection
-            using (SqlConnection sqlConnection = new SqlConnection(connectStr))
+            using SqlConnection sqlConnection = new(connectStr);
+            //Create and initialise an sql command
+            using SqlCommand sqlCommand = new(sqlQuery, sqlConnection);
+            //Set the parameters of the sql statement
+            sqlCommand.Parameters.AddWithValue("@TriggerTime", triggerTime);
+            sqlCommand.Parameters.AddWithValue("@MuteTime", muteTime);
+
+            //Open the connection and execute the command containing the sql statement
+            try
             {
-                //Create and initialise an sql command
-                using (SqlCommand sqlCommand = new SqlCommand(sqlQuery, sqlConnection))
-                {
-                    //Set the parameters of the sql statement
-                    sqlCommand.Parameters.AddWithValue("@TriggerTime", triggerTime);
-                    sqlCommand.Parameters.AddWithValue("@MuteTime", muteTime);
+                sqlConnection.Open();
+                int noOfRows = sqlCommand.ExecuteNonQuery();
 
-                    //Open the connection and execute the command containing the sql statement
-                    try
-                    {
-                        sqlConnection.Open();
-                        int noOfRows = sqlCommand.ExecuteNonQuery();
-
-                        //Return the no of rows inserted(is 1 if executed correctly)
-                        return noOfRows;
-                    }
-                    catch (SqlException)
-                    {
-                        //Return an error code
-                        return Constants.errNoRowInserted;
-                    }
-                }
+                //Return the no of rows inserted(is 1 if executed correctly)
+                return noOfRows;
+            }
+            catch (SqlException)
+            {
+                //Return an error code
+                return Constants.errNoRowInserted;
             }
         }
     }
