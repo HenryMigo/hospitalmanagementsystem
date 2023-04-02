@@ -11,7 +11,8 @@ namespace BedsideMonitoring
     public class Alarm
     {
         //Sound file in resources to play when alarm triggered
-        private readonly SoundPlayer mutable = new SoundPlayer(Resources.Mutable);
+        // TODO: FIXME
+        private readonly SoundPlayer mutable = new(Resources.Mutable);
         //for testing bed background flash
         private bool alarmCurrentlyTriggered;
         private string bedOfAlarm;
@@ -63,6 +64,7 @@ namespace BedsideMonitoring
         // Sound loops when alarm is triggered
         public void TriggerAlarm()
         {
+            // TODO: FIXME
             mutable.PlayLooping();
             AlarmCurrentlyTriggered = true;
         }
@@ -79,6 +81,7 @@ namespace BedsideMonitoring
             {
                 AlarmCurrentlyTriggered = false;
 
+                // TODO: FIX ME
                 mutable.Stop();
                 MessageBox.Show("The alarm has been muted");
             }
