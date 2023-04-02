@@ -1,5 +1,4 @@
 ﻿using BedsideMonitoring.Properties;
-using System;
 using System.Media;
 using System.Net;
 using System.Net.Mail;
@@ -29,7 +28,7 @@ namespace BedsideMonitoring
             set { bedOfAlarm = value; }
         }
 
-        public void FormBackgroundFlash(string acts)
+        public static void FormBackgroundFlash(string acts)
         {
             bool act = acts == "a";
 
@@ -88,7 +87,7 @@ namespace BedsideMonitoring
         }
 
         //Method to send alert messages to staff member via SMS or pager
-        public void SendAlertMessageAlarm(string contactInformationMedicalStaff, string patientName, string bedNumber, string patientVitalName)
+        public static void SendAlertMessageAlarm(string contactInformationMedicalStaff, string patientName, string bedNumber, string patientVitalName)
         {
             //Message to staff member
             MessageBox.Show(patientName + "'s (" + bedNumber + ") " +
@@ -100,10 +99,10 @@ namespace BedsideMonitoring
 
 class Mail
 {
-    public void SendEmail(string emailTo, string patientName, string bedNumber, string vitalIssue)
+    public static void SendEmail(string emailTo, string patientName, string bedNumber, string vitalIssue)
     {
         //Create message object with sender and receiver email address
-        MailMessage email = new MailMessage("eastangliahospital@gmail.com", emailTo)
+        MailMessage email = new("eastangliahospital@gmail.com", emailTo)
         {
             //Create email subject and body
             Subject = "Dear " + BedsideMonitoring.ConsultantStaff.Instance.NameStaff + " " + bedNumber + "Vitals out of recommended range",
@@ -111,7 +110,7 @@ class Mail
         };
 
         //email authentication
-        var smtpClient = new SmtpClient("smtp.gmail.com", 587)
+        SmtpClient smtpClient = new("smtp.gmail.com", 587)
         {
             UseDefaultCredentials = false,
 
