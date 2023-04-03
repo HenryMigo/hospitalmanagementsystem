@@ -1,6 +1,5 @@
-﻿using System;
+﻿using BedsideMonitoring;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BedsideMonitoring;
 
 namespace BedsideMonitoringTests
 {
@@ -8,7 +7,7 @@ namespace BedsideMonitoringTests
     public class StaffTest
     {
         //Act
-        readonly MedicalStaff testStaff = new MedicalStaff();
+        readonly MedicalStaff testStaff = new();
 
         private void RegisterAndDeregister()
         {

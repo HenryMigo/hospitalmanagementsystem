@@ -1,13 +1,12 @@
-﻿using System;
+﻿using BedsideMonitoring;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using BedsideMonitoring;
 
 namespace BedsideMonitoringTests
 {
     [TestClass]
     public class AlarmTest
     {
-        Alarm testAlarm = new Alarm();
+        readonly Alarm testAlarm = new();
 
         [TestMethod]
         public void MuteAlarmTestWhenAlarmIsMutable()
