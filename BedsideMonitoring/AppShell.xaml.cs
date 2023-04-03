@@ -1,4 +1,4 @@
-﻿namespace BedsideMonitroing
+﻿namespace BedsideMonitoring
 {
     public partial class AppShell : Shell
     {
