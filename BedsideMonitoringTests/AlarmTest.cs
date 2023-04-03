@@ -1,4 +1,4 @@
-﻿using BedsideMonitoring;
+﻿using BedsideMonitoring.WinForms;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BedsideMonitoringTests

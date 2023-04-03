@@ -16,7 +16,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\BedsideMonitoring\BedsideMonitoring.csproj" />
+	  <ProjectReference Include="..\BedsideMonitoring.WinForms\BedsideMonitoring.WinForms.csproj" />
 	</ItemGroup>
 
 </Project>
