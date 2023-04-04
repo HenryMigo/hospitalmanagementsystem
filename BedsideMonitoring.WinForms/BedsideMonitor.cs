@@ -75,7 +75,7 @@ namespace BedsideMonitoring.WinForms
                 a.Start();
                 _alarm.TriggerAlarm();
                 Alarm.SendAlertMessageAlarm( "Nurse",PN ,_alarm.BedOfAlarm,bedsideModule1.lblBedsideModule.Text);
-                Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule1.lblBedsideModule.Text);
+                //Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule1.lblBedsideModule.Text);
                 
             }
             if (PatientLowerLimit1 > col1CSV)
@@ -83,7 +83,7 @@ namespace BedsideMonitoring.WinForms
                 a.Start();
                 _alarm.TriggerAlarm();
                 Alarm.SendAlertMessageAlarm("Nurse", PN, _alarm.BedOfAlarm, bedsideModule1.lblBedsideModule.Text);
-                Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule1.lblBedsideModule.Text);
+                //Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule1.lblBedsideModule.Text);
             }
             // Module2
             if (PatientUpperLimit2 < col2CSV)
@@ -91,14 +91,14 @@ namespace BedsideMonitoring.WinForms
                 a.Start();
                 _alarm.TriggerAlarm();
                 Alarm.SendAlertMessageAlarm("Nurse", PN, _alarm.BedOfAlarm, bedsideModule2.lblBedsideModule.Text);
-                Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule2.lblBedsideModule.Text);
+                //Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule2.lblBedsideModule.Text);
             }
             if (PatientLowerLimit2 > col2CSV)
             {
                 a.Start();
                 _alarm.TriggerAlarm();
                 Alarm.SendAlertMessageAlarm("Nurse", PN, _alarm.BedOfAlarm, bedsideModule2.lblBedsideModule.Text);
-                Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule2.lblBedsideModule.Text);
+                //Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule2.lblBedsideModule.Text);
             }
             // Module3
             if (PatientUpperLimit3 < col3CSV)
@@ -106,14 +106,14 @@ namespace BedsideMonitoring.WinForms
                 a.Start();
                 _alarm.TriggerAlarm();
                 Alarm.SendAlertMessageAlarm("Nurse", PN, _alarm.BedOfAlarm, bedsideModule3.lblBedsideModule.Text);
-                Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule3.lblBedsideModule.Text);
+                //Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule3.lblBedsideModule.Text);
             }
             if (PatientLowerLimit3 > col3CSV)
             {
                 a.Start();
                 _alarm.TriggerAlarm();
                 Alarm.SendAlertMessageAlarm("Nurse", PN, _alarm.BedOfAlarm, bedsideModule3.lblBedsideModule.Text);
-                Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule3.lblBedsideModule.Text);
+                //Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule3.lblBedsideModule.Text);
             }
             //Module4
             if (PatientUpperLimit4 < col4CSV)
@@ -121,14 +121,14 @@ namespace BedsideMonitoring.WinForms
                 a.Start();
                 _alarm.TriggerAlarm();
                 Alarm.SendAlertMessageAlarm("Nurse", PN, _alarm.BedOfAlarm, bedsideModule4.lblBedsideModule.Text);
-                Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule4.lblBedsideModule.Text);
+                //Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule4.lblBedsideModule.Text);
             }
             if (PatientLowerLimit4 > col4CSV)
             {
                 a.Start();
                 _alarm.TriggerAlarm();
                 Alarm.SendAlertMessageAlarm("Nurse", PN, _alarm.BedOfAlarm, bedsideModule4.lblBedsideModule.Text);
-                Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule4.lblBedsideModule.Text);
+                //Mail.SendEmail(ConsultantStaff.Instance.ContactInformation, PN, _alarm.BedOfAlarm, bedsideModule4.lblBedsideModule.Text);
             }
         }
 

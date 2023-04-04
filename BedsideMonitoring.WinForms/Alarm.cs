@@ -1,6 +1,5 @@
-﻿using BedsideMonitoring.WinForms;
-using BedsideMonitoring.WinForms.Properties;
-using System.Media;
+﻿using Bassoon;
+using BedsideMonitoring.WinForms;
 using System.Net;
 using System.Net.Mail;
 using System.Windows.Forms;
@@ -11,8 +10,8 @@ namespace BedsideMonitoring.WinForms
     public class Alarm
     {
         //Sound file in resources to play when alarm triggered
-        // TODO: FIXME
-        private readonly SoundPlayer mutable = new(Resources.Mutable);
+        Sound _sound;
+
         //for testing bed background flash
         private bool alarmCurrentlyTriggered;
         private string bedOfAlarm;
@@ -56,7 +55,7 @@ namespace BedsideMonitoring.WinForms
                 }
                 else
                 {
-                    BedsideMonitor.ActiveForm.BackColor = System.Drawing.SystemColors.Control;
+                    Form.ActiveForm.BackColor = System.Drawing.SystemColors.Control;
                 }
             }
         }
@@ -64,8 +63,19 @@ namespace BedsideMonitoring.WinForms
         // Sound loops when alarm is triggered
         public void TriggerAlarm()
         {
-            // TODO: FIXME
-            mutable.PlayLooping();
+            // TODO: FIX ME No sound
+            using var bassonEngine = new BassoonEngine();
+
+            _sound = new(@"D:\dev\hospitalmanagementsystem\BedsideMonitoring.WinForms\Resources\Mutable.wav")
+            {
+                Volume = 1.00f
+            };
+
+            if (!_sound.IsPlaying)
+            {
+                _sound.Play();
+            }
+
             AlarmCurrentlyTriggered = true;
         }
 
@@ -81,8 +91,12 @@ namespace BedsideMonitoring.WinForms
             {
                 AlarmCurrentlyTriggered = false;
 
-                // TODO: FIX ME
-                mutable.Stop();
+                // TODO: Stop sound
+                if (_sound.IsPlaying)
+                {
+                    _sound.Pause();
+                }
+
                 MessageBox.Show("The alarm has been muted");
             }
         }

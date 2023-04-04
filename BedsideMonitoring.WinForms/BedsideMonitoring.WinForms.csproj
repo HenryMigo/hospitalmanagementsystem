@@ -59,6 +59,7 @@
 		</Content>
 	</ItemGroup>
 	<ItemGroup>
+	  <PackageReference Include="Bassoon" Version="1.1.2" />
 	  <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.1" />
 	</ItemGroup>
 </Project>
