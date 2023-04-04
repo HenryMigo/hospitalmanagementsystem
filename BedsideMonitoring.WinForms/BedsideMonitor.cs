@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace BedsideMonitoring.WinForms
@@ -24,7 +25,7 @@ namespace BedsideMonitoring.WinForms
         {
             a.Stop();
             _alarm.AlarmCurrentlyTriggered = false;
-            this.BackColor = System.Drawing.SystemColors.Control;
+            this.BackColor = SystemColors.Control;
         }
 
         public BedsideMonitor(string bedName, string module1Name, string module2Name, string module3Name, string module4Name, string PName)
@@ -134,19 +135,23 @@ namespace BedsideMonitoring.WinForms
 
         private void A_Tick(object sender, EventArgs e)
         {
-            if (this.BackColor == System.Drawing.SystemColors.Control)
+            if (this.BackColor == SystemColors.Control)
             {
-                this.BackColor = System.Drawing.Color.DarkRed;
+                this.BackColor = Color.DarkRed;
             }
             else
             {
-                this.BackColor = System.Drawing.SystemColors.Control;
+                this.BackColor = SystemColors.Control;
             }
         }
 
         private static void SetModuleLimits(string numericUpDown1, string numericUpDown2, ref int patientUpperLimit, ref int patientLowerLimit)
         {
-            if (patientUpperLimit < 0) throw new ArgumentOutOfRangeException(nameof(patientUpperLimit));
+            if (patientUpperLimit < 0)
+            {
+                throw new ArgumentOutOfRangeException(nameof(patientUpperLimit));
+            }
+
             patientUpperLimit = int.Parse(numericUpDown1);
             patientLowerLimit = int.Parse(numericUpDown2);
         }
