@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BedsideMonitoring.WinForms"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BedsideMonitoringTests", "BedsideMonitoringTests\BedsideMonitoringTests.csproj", "{A05EEAF3-9CD3-4420-9861-ACFB8B2040A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BedsideMonitoring", "BedsideMonitoring\BedsideMonitoring.csproj", "{C9C1DF50-2FAB-49DE-8DA5-F4229ECC5413}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,12 +21,6 @@ Global
 		{A05EEAF3-9CD3-4420-9861-ACFB8B2040A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A05EEAF3-9CD3-4420-9861-ACFB8B2040A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A05EEAF3-9CD3-4420-9861-ACFB8B2040A8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C9C1DF50-2FAB-49DE-8DA5-F4229ECC5413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C9C1DF50-2FAB-49DE-8DA5-F4229ECC5413}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C9C1DF50-2FAB-49DE-8DA5-F4229ECC5413}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{C9C1DF50-2FAB-49DE-8DA5-F4229ECC5413}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C9C1DF50-2FAB-49DE-8DA5-F4229ECC5413}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C9C1DF50-2FAB-49DE-8DA5-F4229ECC5413}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

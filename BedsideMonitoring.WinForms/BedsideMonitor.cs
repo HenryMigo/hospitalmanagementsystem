@@ -6,9 +6,9 @@ namespace BedsideMonitoring.WinForms
 {
     public partial class BedsideMonitor : Form
     {
-        readonly CSVReader _Csvreader = new();
-        readonly Alarm _alarm = new();
-        readonly Timer a = new();
+        private readonly CSVReader _csvReader = new();
+        private readonly Alarm _alarm = new();
+        private readonly Timer a = new();
 
         private int PatientUpperLimit1,
                 PatientLowerLimit1,
@@ -41,7 +41,7 @@ namespace BedsideMonitoring.WinForms
             PN = PName;
             a.Tick += A_Tick;
             a.Interval = 100;
-            _Csvreader.CsvVitalReader(bedName);
+            _csvReader.CsvVitalReader(bedName);
             //
             stopwatch.Tick += Stopwatch_Tick1;
             stopwatch.Interval = 100;
@@ -51,11 +51,11 @@ namespace BedsideMonitoring.WinForms
         private void Stopwatch_Tick1(object sender, EventArgs e)
         {
             
-            _Csvreader.SetPatientData(_Csvreader.CsvGetData());
-            bedsideModule1.lblPatientVital.Text = _Csvreader.Col1;
-            bedsideModule2.lblPatientVital.Text = _Csvreader.Col2;
-            bedsideModule3.lblPatientVital.Text = _Csvreader.Col3;
-            bedsideModule4.lblPatientVital.Text = _Csvreader.Col4;       
+            _csvReader.SetPatientData(_csvReader.CsvGetData());
+            bedsideModule1.lblPatientVital.Text = _csvReader.Col1;
+            bedsideModule2.lblPatientVital.Text = _csvReader.Col2;
+            bedsideModule3.lblPatientVital.Text = _csvReader.Col3;
+            bedsideModule4.lblPatientVital.Text = _csvReader.Col4;       
         }
        
         private void BtnSetModuleLimits_Click(object sender, EventArgs e)

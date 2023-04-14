@@ -1,8 +1,8 @@
 ﻿<maui:MauiWinUIApplication
-    x:Class="BedsideMonitoring.WinUI.App"
+    x:Class="BedsideMonitoring.App.WinUI.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
-    xmlns:local="using:BedsideMonitoring.WinUI">
+    xmlns:local="using:BedsideMonitoring.App.WinUI">
 
 </maui:MauiWinUIApplication>

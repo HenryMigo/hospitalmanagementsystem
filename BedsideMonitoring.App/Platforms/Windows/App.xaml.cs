@@ -1,10 +1,12 @@
-﻿// To learn more about WinUI, the WinUI project structure,
+﻿using Microsoft.UI.Xaml;
+
+// To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace BedsideMonitoring.WinUI
+namespace BedsideMonitoring.App.WinUI
 {
     /// <summary>
-    /// Provides application-specific behaviour to supplement the default Application class.
+    /// Provides application-specific behavior to supplement the default Application class.
     /// </summary>
     public partial class App : MauiWinUIApplication
     {
